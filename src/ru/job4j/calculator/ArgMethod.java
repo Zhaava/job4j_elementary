@@ -13,8 +13,9 @@ public class ArgMethod {
     public static void hello() {
         System.out.println("Hello, ");
     }
-    public static void hello(String name1, String name2,String name3) {
-        System.out.println("Hello, " + " "+ name1 + " " + name2 + " " + name3);
+
+    public static void hello(String name1, String name2, String name3) {
+        System.out.println("Hello, " + " " + name1 + " " + name2 + " " + name3);
     }
 
     public static void main(String[] args) {

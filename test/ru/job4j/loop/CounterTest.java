@@ -19,8 +19,9 @@ public class CounterTest {
         int expected = 18;
         assertThat(rsl, is(expected));
     }
+
     @Test
-    public void when1To4ThenSumEvenIs18() {
+    public void when1To4ThenSumEvenIs6() {
         int rsl = Counter.sumByEven(1, 4);
         int expected = 6;
         assertThat(rsl, is(expected));

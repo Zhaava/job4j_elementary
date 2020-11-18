@@ -6,7 +6,7 @@ public class Mortgage {
         double resultCredit = amount;
         while (resultCredit > 0) {
             year++;
-            resultCredit = (resultCredit + resultCredit  * percent/100) - salary;
+            resultCredit = (resultCredit + resultCredit  * percent / 100) - salary;
         }
         return year;
     }

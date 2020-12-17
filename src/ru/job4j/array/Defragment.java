@@ -22,5 +22,4 @@ public class Defragment {
         array[dest] = temp;
         return array;
     }
-
 }
